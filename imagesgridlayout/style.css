@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .full-width-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .half-width-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .half-image {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .half-image img {
+    max-width: 100%;
+    height: auto;
+  }
